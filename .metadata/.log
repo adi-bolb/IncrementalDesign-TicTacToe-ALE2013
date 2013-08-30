@@ -88,3 +88,78 @@ Command: [/usr/lib/jvm/java-7-openjdk-i386/bin/java, -mx256m, org.infinitest.tes
 
 !ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:15:48.862
 !MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:17:56.143
+!MESSAGE IncrementalDesign Files changed: [/home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign/bin/something/SomeClass.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:17:56.148
+!MESSAGE IncrementalDesign Running tests: [something.SomeClass]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:17:56.148
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign
+Environment: {XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, GNOME_KEYRING_CONTROL=/run/user/adi/keyring-FImK6T, GTK_MODULES=overlay-scrollbar, LC_TELEPHONE=en_US.UTF-8, SSH_AGENT_PID=2441, TEXTDOMAINDIR=/usr/share/locale/, SESSION_MANAGER=local/laptop:@/tmp/.ICE-unix/2390,unix/laptop:/tmp/.ICE-unix/2390, LC_NUMERIC=en_US.UTF-8, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, LC_NAME=en_US.UTF-8, GDMSESSION=ubuntu, IM_CONFIG_PHASE=1, XDG_SESSION_COOKIE=a23c30ad3e5d43482ccd901a0000000d-1377587234.633224-1470842784, COMPIZ_CONFIG_PROFILE=ubuntu, XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, PWD=/home/adi, LC_PAPER=en_US.UTF-8, LOGNAME=adi, GPG_AGENT_INFO=/run/user/adi/keyring-FImK6T/gpg:0:1, LC_IDENTIFICATION=en_US.UTF-8, XAPIAN_CJK_NGRAM=1, SSH_AUTH_SOCK=/run/user/adi/keyring-FImK6T/ssh, LD_LIBRARY_PATH=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:, TEXTDOMAIN=im-config, SHELL=/bin/bash, LC_ADDRESS=en_US.UTF-8, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-eV3d8qKzXe,guid=8bf3872c0bdf851afad8e934521c5023, GNOME_KEYRING_PID=2379, LANGUAGE=en_US:en_GB:en, CLASSPATH=/home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign/bin:/usr/share/eclipse/dropins/jdt/plugins/org.junit_4.8.2.dist/junit.jar:/usr/share/eclipse/dropins/jdt/plugins/org.hamcrest.core_1.1.0.jar:/tmp/infinitest.jar, XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg, XDG_CURRENT_DESKTOP=Unity, PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, DESKTOP_SESSION=ubuntu, DISPLAY=:0, LC_MONETARY=en_US.UTF-8, UBUNTU_MENUPROXY=libappmenu.so, USER=adi, HOME=/home/adi, XAUTHORITY=/home/adi/.Xauthority, DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, LC_MEASUREMENT=en_US.UTF-8, LC_TIME=en_US.UTF-8, XDG_RUNTIME_DIR=/run/user/adi, LANG=en_US.UTF-8}
+Command: [/usr/lib/jvm/java-7-openjdk-i386/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 34936]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:17:56.431
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:18:16.891
+!MESSAGE IncrementalDesign Files changed: [/home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign/bin/something/TicTacToeGame.class, /home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign/bin/something/SomeClass.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:18:16.895
+!MESSAGE IncrementalDesign Running tests: [something.SomeClass]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:18:16.896
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign
+Environment: {XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, GNOME_KEYRING_CONTROL=/run/user/adi/keyring-FImK6T, GTK_MODULES=overlay-scrollbar, LC_TELEPHONE=en_US.UTF-8, SSH_AGENT_PID=2441, TEXTDOMAINDIR=/usr/share/locale/, SESSION_MANAGER=local/laptop:@/tmp/.ICE-unix/2390,unix/laptop:/tmp/.ICE-unix/2390, LC_NUMERIC=en_US.UTF-8, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, LC_NAME=en_US.UTF-8, GDMSESSION=ubuntu, IM_CONFIG_PHASE=1, XDG_SESSION_COOKIE=a23c30ad3e5d43482ccd901a0000000d-1377587234.633224-1470842784, COMPIZ_CONFIG_PROFILE=ubuntu, XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, PWD=/home/adi, LC_PAPER=en_US.UTF-8, LOGNAME=adi, GPG_AGENT_INFO=/run/user/adi/keyring-FImK6T/gpg:0:1, LC_IDENTIFICATION=en_US.UTF-8, XAPIAN_CJK_NGRAM=1, SSH_AUTH_SOCK=/run/user/adi/keyring-FImK6T/ssh, LD_LIBRARY_PATH=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:, TEXTDOMAIN=im-config, SHELL=/bin/bash, LC_ADDRESS=en_US.UTF-8, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-eV3d8qKzXe,guid=8bf3872c0bdf851afad8e934521c5023, GNOME_KEYRING_PID=2379, LANGUAGE=en_US:en_GB:en, CLASSPATH=/home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign/bin:/usr/share/eclipse/dropins/jdt/plugins/org.junit_4.8.2.dist/junit.jar:/usr/share/eclipse/dropins/jdt/plugins/org.hamcrest.core_1.1.0.jar:/tmp/infinitest.jar, XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg, XDG_CURRENT_DESKTOP=Unity, PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, DESKTOP_SESSION=ubuntu, DISPLAY=:0, LC_MONETARY=en_US.UTF-8, UBUNTU_MENUPROXY=libappmenu.so, USER=adi, HOME=/home/adi, XAUTHORITY=/home/adi/.Xauthority, DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, LC_MEASUREMENT=en_US.UTF-8, LC_TIME=en_US.UTF-8, XDG_RUNTIME_DIR=/run/user/adi, LANG=en_US.UTF-8}
+Command: [/usr/lib/jvm/java-7-openjdk-i386/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 37073]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:18:17.176
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:18:42.568
+!MESSAGE IncrementalDesign Files changed: [/home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign/bin/something/SomeClass.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:18:42.572
+!MESSAGE IncrementalDesign Running tests: [something.SomeClass]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:18:42.573
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign
+Environment: {XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, GNOME_KEYRING_CONTROL=/run/user/adi/keyring-FImK6T, GTK_MODULES=overlay-scrollbar, LC_TELEPHONE=en_US.UTF-8, SSH_AGENT_PID=2441, TEXTDOMAINDIR=/usr/share/locale/, SESSION_MANAGER=local/laptop:@/tmp/.ICE-unix/2390,unix/laptop:/tmp/.ICE-unix/2390, LC_NUMERIC=en_US.UTF-8, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, LC_NAME=en_US.UTF-8, GDMSESSION=ubuntu, IM_CONFIG_PHASE=1, XDG_SESSION_COOKIE=a23c30ad3e5d43482ccd901a0000000d-1377587234.633224-1470842784, COMPIZ_CONFIG_PROFILE=ubuntu, XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, PWD=/home/adi, LC_PAPER=en_US.UTF-8, LOGNAME=adi, GPG_AGENT_INFO=/run/user/adi/keyring-FImK6T/gpg:0:1, LC_IDENTIFICATION=en_US.UTF-8, XAPIAN_CJK_NGRAM=1, SSH_AUTH_SOCK=/run/user/adi/keyring-FImK6T/ssh, LD_LIBRARY_PATH=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:, TEXTDOMAIN=im-config, SHELL=/bin/bash, LC_ADDRESS=en_US.UTF-8, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-eV3d8qKzXe,guid=8bf3872c0bdf851afad8e934521c5023, GNOME_KEYRING_PID=2379, LANGUAGE=en_US:en_GB:en, CLASSPATH=/home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign/bin:/usr/share/eclipse/dropins/jdt/plugins/org.junit_4.8.2.dist/junit.jar:/usr/share/eclipse/dropins/jdt/plugins/org.hamcrest.core_1.1.0.jar:/tmp/infinitest.jar, XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg, XDG_CURRENT_DESKTOP=Unity, PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, DESKTOP_SESSION=ubuntu, DISPLAY=:0, LC_MONETARY=en_US.UTF-8, UBUNTU_MENUPROXY=libappmenu.so, USER=adi, HOME=/home/adi, XAUTHORITY=/home/adi/.Xauthority, DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, LC_MEASUREMENT=en_US.UTF-8, LC_TIME=en_US.UTF-8, XDG_RUNTIME_DIR=/run/user/adi, LANG=en_US.UTF-8}
+Command: [/usr/lib/jvm/java-7-openjdk-i386/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 35549]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:18:42.831
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:21:15.504
+!MESSAGE IncrementalDesign Files changed: [/home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign/bin/something/TicTacToeGame.class, /home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign/bin/something/SomeClass.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:21:15.509
+!MESSAGE IncrementalDesign Running tests: [something.SomeClass]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:21:15.509
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign
+Environment: {XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, GNOME_KEYRING_CONTROL=/run/user/adi/keyring-FImK6T, GTK_MODULES=overlay-scrollbar, LC_TELEPHONE=en_US.UTF-8, SSH_AGENT_PID=2441, TEXTDOMAINDIR=/usr/share/locale/, SESSION_MANAGER=local/laptop:@/tmp/.ICE-unix/2390,unix/laptop:/tmp/.ICE-unix/2390, LC_NUMERIC=en_US.UTF-8, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, LC_NAME=en_US.UTF-8, GDMSESSION=ubuntu, IM_CONFIG_PHASE=1, XDG_SESSION_COOKIE=a23c30ad3e5d43482ccd901a0000000d-1377587234.633224-1470842784, COMPIZ_CONFIG_PROFILE=ubuntu, XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, PWD=/home/adi, LC_PAPER=en_US.UTF-8, LOGNAME=adi, GPG_AGENT_INFO=/run/user/adi/keyring-FImK6T/gpg:0:1, LC_IDENTIFICATION=en_US.UTF-8, XAPIAN_CJK_NGRAM=1, SSH_AUTH_SOCK=/run/user/adi/keyring-FImK6T/ssh, LD_LIBRARY_PATH=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:, TEXTDOMAIN=im-config, SHELL=/bin/bash, LC_ADDRESS=en_US.UTF-8, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-eV3d8qKzXe,guid=8bf3872c0bdf851afad8e934521c5023, GNOME_KEYRING_PID=2379, LANGUAGE=en_US:en_GB:en, CLASSPATH=/home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign/bin:/usr/share/eclipse/dropins/jdt/plugins/org.junit_4.8.2.dist/junit.jar:/usr/share/eclipse/dropins/jdt/plugins/org.hamcrest.core_1.1.0.jar:/tmp/infinitest.jar, XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg, XDG_CURRENT_DESKTOP=Unity, PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, DESKTOP_SESSION=ubuntu, DISPLAY=:0, LC_MONETARY=en_US.UTF-8, UBUNTU_MENUPROXY=libappmenu.so, USER=adi, HOME=/home/adi, XAUTHORITY=/home/adi/.Xauthority, DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, LC_MEASUREMENT=en_US.UTF-8, LC_TIME=en_US.UTF-8, XDG_RUNTIME_DIR=/run/user/adi, LANG=en_US.UTF-8}
+Command: [/usr/lib/jvm/java-7-openjdk-i386/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 60822]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:21:15.780
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:21:20.614
+!MESSAGE IncrementalDesign Files changed: [/home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign/bin/something/TicTacToeGame.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:21:20.616
+!MESSAGE IncrementalDesign Running tests: [something.SomeClass]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:21:20.616
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign
+Environment: {XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, GNOME_KEYRING_CONTROL=/run/user/adi/keyring-FImK6T, GTK_MODULES=overlay-scrollbar, LC_TELEPHONE=en_US.UTF-8, SSH_AGENT_PID=2441, TEXTDOMAINDIR=/usr/share/locale/, SESSION_MANAGER=local/laptop:@/tmp/.ICE-unix/2390,unix/laptop:/tmp/.ICE-unix/2390, LC_NUMERIC=en_US.UTF-8, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, LC_NAME=en_US.UTF-8, GDMSESSION=ubuntu, IM_CONFIG_PHASE=1, XDG_SESSION_COOKIE=a23c30ad3e5d43482ccd901a0000000d-1377587234.633224-1470842784, COMPIZ_CONFIG_PROFILE=ubuntu, XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, PWD=/home/adi, LC_PAPER=en_US.UTF-8, LOGNAME=adi, GPG_AGENT_INFO=/run/user/adi/keyring-FImK6T/gpg:0:1, LC_IDENTIFICATION=en_US.UTF-8, XAPIAN_CJK_NGRAM=1, SSH_AUTH_SOCK=/run/user/adi/keyring-FImK6T/ssh, LD_LIBRARY_PATH=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:, TEXTDOMAIN=im-config, SHELL=/bin/bash, LC_ADDRESS=en_US.UTF-8, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-eV3d8qKzXe,guid=8bf3872c0bdf851afad8e934521c5023, GNOME_KEYRING_PID=2379, LANGUAGE=en_US:en_GB:en, CLASSPATH=/home/data/Projects/TicTacToe-IncrementalDesignALE/IncrementalDesign/bin:/usr/share/eclipse/dropins/jdt/plugins/org.junit_4.8.2.dist/junit.jar:/usr/share/eclipse/dropins/jdt/plugins/org.hamcrest.core_1.1.0.jar:/tmp/infinitest.jar, XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg, XDG_CURRENT_DESKTOP=Unity, PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, DESKTOP_SESSION=ubuntu, DISPLAY=:0, LC_MONETARY=en_US.UTF-8, UBUNTU_MENUPROXY=libappmenu.so, USER=adi, HOME=/home/adi, XAUTHORITY=/home/adi/.Xauthority, DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, LC_MEASUREMENT=en_US.UTF-8, LC_TIME=en_US.UTF-8, XDG_RUNTIME_DIR=/run/user/adi, LANG=en_US.UTF-8}
+Command: [/usr/lib/jvm/java-7-openjdk-i386/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 55467]
+
+!ENTRY org.infinitest.eclipse 1 0 2013-08-30 12:21:20.881
+!MESSAGE Update complete. Status PASSING
